@@ -1,0 +1,33 @@
+{
+  "name": "indostatus",
+  "version": "1.0.0",
+  "description": "Sistema de monitoreo y automatización de cultivos usando agricultura vertical",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  },
+  "workspaces": [
+    "api",
+    "client"
+  ],
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cldrojas/indostatus.git"
+  },
+  "keywords": [],
+  "author": "Daniel Rojas <cld.rojasz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cldrojas/indostatus/issues"
+  },
+  "homepage": "https://github.com/cldrojas/indostatus#readme"
+}
