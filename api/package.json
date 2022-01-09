@@ -10,6 +10,13 @@
     "lint": "eslint"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
