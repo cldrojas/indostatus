@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "Backend of indostatus with Express API",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
