@@ -4,6 +4,7 @@
   "description": "Backend of indostatus with Express API",
   "main": "index.js",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
