@@ -11,7 +11,8 @@
   },
   "workspaces": [
     "api",
-    "client"
+    "mobile",
+    "web"
   ],
   "prettier": {
     "trailingComma": "es5",
