@@ -11,13 +11,13 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   const { id } = req.params
-  const genero = await service.findOne(id)
+  const genero = await service.findOne(parseInt(id), 10)
   res.status(200).json(genero)
 })
 
 router.get('/deleted', async (req, res) => {
   const generos = await service.find()
-  const generosDeleted = generos.filter((genero) => genero.deleted)
+  const generosDeleted = generos.filter((genero) => genero.deleted === true)
   res.status(200).json(generosDeleted)
 })
 
